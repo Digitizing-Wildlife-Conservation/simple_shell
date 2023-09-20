@@ -13,4 +13,4 @@ This repository contains a simple C programming project for a shell.
 - Email: [Moses Muchai Email](mailto:ses.moki@gmail.com)
 - Email: [Brian Odenyi Email](mailto:brianodenyi@gmail.com )
 - Phone: [Brian Odenyi Phone](Thuraya)
-- Thuraya: [Moses Muchai Phone (Thuraya)]
+- Phone: [Moses Muchai Phone (Thuraya)]
