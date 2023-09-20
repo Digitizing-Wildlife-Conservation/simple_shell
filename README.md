@@ -12,8 +12,8 @@ This repository contains a simple C programming project for a shell.
 **Contact Information:**
 - Email: [Moses Muchai Email](mailto:ses.moki@gmail.com)
 - Email: [Brian Odenyi Email](mailto:brianodenyi@gmail.com )
-- Phone: [Brian Odenyi Phone](Thuraya)
-- Phone: [Moses Muchai Phone (Thuraya)]
+- Name: [Moses Muchai ] Phone (Thuraya)
+- Name: [Brian Odenyi]   Phone: (Thuraya)
 
   0x16. C - Simple Shell
 C
@@ -537,3 +537,80 @@ GitHub repository: simple_shell
    
 Copyright © 2023 ALX, All rights reserved.
 ![shell](https://github.com/Digitizing-Wildlife-Conservation/simple_shell/assets/125444469/16d7e813-d201-4a71-98f7-b2aafa3fed8b)
+Project Summary: C - Simple Shell (0x16) 0x16. C - Simple Shell C Group project_Cohort - Summary
+
+This project stands as a significant milestone within the ALX Africa Software Engineering C code curriculum, focusing on the development of a Unix-based shell. Its fundamental aim is to deepen students' understanding of advanced shell programming concepts, including processes, system calls, bit manipulation, file management, and robust error handling. This C-coded shell meticulously replicates the functionality of the standard Unix shell (sh) and is exclusively crafted in the C programming language.
+
+Detailed Overview
+
+Created in C and rooted in the Thompson Shell, this shell has undergone rigorous testing on Ubuntu 14.04 LTS.
+
+Key Features
+
+It presents a user-friendly interface by displaying a prompt and waiting for command input, ensuring each command line concludes with a newline character.
+Robust error handling is integrated to gracefully manage scenarios where executables cannot be located.
+It adeptly manages the "end of file" condition (Ctrl+D).
+Efficiently handles command lines with arguments.
+Effectively deals with the PATH environment variable.
+Implements the exit feature, offering an optional exit status.
+Ensures the shell remains active upon pressing Ctrl-C.
+Seamlessly handles command separators (e.g., ;).
+Offers support for logical operators like && and ||.
+Skillfully handles variable replacements for $? and $$.
+Precisely identifies and processes comments (marked with #).
+Provides robust command history support.
+Facilitates file input.
+Built-in Commands
+
+This shell is equipped with a spectrum of built-in commands:
+
+exit [n]: Gracefully exits the shell, with the option of specifying an exit status, n.
+env: Displays the current environment.
+setenv [var][value]: Sets an environment variable and updates its value if it already exists.
+alias[name[='value]]: Manages aliases for commands.
+unsetenv [var]: Removes an environment variable.
+cd [dir]: Facilitates navigation within the current directory.
+help [built-in]: Accesses documentation for built-in commands.
+Installation
+
+Acquiring this shell is straightforward; it involves cloning the provided repository and compiling the files into an executable using the GCC compiler.
+
+Basic Usage 💡
+
+To initiate, follow these steps:
+
+Fork this repository (learn how to fork a repo).
+Clone the repository (learn how to clone).
+Create an executable by executing the following command:
+shell
+Copy code
+gcc -Wall -Werror -Wextra -pedantic *.c -o hsh
+Launch the shell:
+shell
+Copy code
+./hsh
+Example 💻
+
+shell
+Copy code
+ls -la
+Contributors
+
+Moses Muchai
+Brian Odenyi
+Acknowledgments
+
+The creators of the C language.
+Our software engineer-in-residence, Betty Holberton | Alx-Africa.
+About
+
+ALX Group project - Simple Shell
+
+COPYRIGHT
+
+Copyright (C) 2022 by Moses Muchai and Brian Odenyi. All rights reserved.
+
+Copyright © 2023 ALX, All rights reserved.
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+                                                                      -Happy Coding-
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
